@@ -20,8 +20,8 @@ public class Main {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com");
-        driver.findElement(By.id("email")).sendKeys("8982715123");
-        driver.findElement(By.id("pass")).sendKeys("Angad@1104");
+        driver.findElement(By.id("email")).sendKeys("$$$$$$$");
+        driver.findElement(By.id("pass")).sendKeys("########");
         Thread.sleep(5000);
         String login_button = "//button[contains(text(),'Log in')]";
         driver.findElement(By.xpath(login_button)).click();
